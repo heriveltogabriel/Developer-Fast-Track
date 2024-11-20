@@ -96,4 +96,4 @@ Como primeiro passo, devemos fazer o download do arquivo (zip) no repositório d
 
 ### ✔ Ambientes provisionados com sucesso!!! Você provisionou recursos usando Terraform na OCI! 🚀
 
-### [Continua... LAB02 --> ](tree/main/Lab.%20%231%20-%20Resource%20Provisioning/LAB02) 
+### [Continua... LAB02 --> ](#Lab.%20%231%20-%20Resource%20Provisioning/LAB02) 
