@@ -60,4 +60,4 @@ Você pode pesquiar o código da sua região [aqui](https://docs.oracle.com/en-u
 
 
 ### 
-[Continua no Lab. #2 -->](../../Lab.%20#2%20-%20Developing%20Cloud%20Native%20Applications/) 
+[Continua... -->](/Lab.%20#2%20-%20Developing%20Cloud%20Native%20Applications/README.md) 
