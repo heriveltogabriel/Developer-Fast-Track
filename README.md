@@ -7,8 +7,8 @@ Acesse a sequência de labs! ⬇
   - [Lab01 - Resource Provisioning ](/Lab.%20%231%20-%20Resource%20Provisioning)
   - [Lab02 - Collect Tenancy information](Lab.%20%232%20-%20Developing%20Cloud%20Native%20Applications%20-%20Parte%201)
 
-- [Lab. #2 - Developing Cloud Native Applications](/Lab.%20%233%20-%20Developing%20Cloud%20Native%20Applications%20-%20Parte%202)
-  - [Lab01 - Front-end](/Lab.%20%231%20-%20Resource%20Provisioning)
+- [Lab. #2 - Developing Cloud Native Applications](/Lab.%20%232%20-%20Developing%20Cloud%20Native%20Applications)
+  - [Lab01 - Front-end](/Lab.%20%232%20-%20Developing%20Cloud%20Native%20Applications/LAB01)
   - [Lab02 - Back-end](Lab.%20%232%20-%20Developing%20Cloud%20Native%20Applications%20-%20Parte%201)
 
 - [Lab. #3 - Automating Deployment](/Lab.%20%234%20-%20Automating%20Deployment)

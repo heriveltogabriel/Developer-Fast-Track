@@ -58,4 +58,7 @@ Clique no domínio criado pelo Resource Manager no laboratório anterior, e copi
 
 Você pode pesquiar o código da sua região [aqui](https://docs.oracle.com/en-us/iaas/Content/Registry/Concepts/registryprerequisites.htm#regional-availability)
 
-# Vá pra o LAB #2
+
+
+
+# [Vá pra o LAB #2](https://github.com/heriveltogabriel/Developer-Fast-Track/tree/main/Lab.%20%232%20-%20Developing%20Cloud%20Native%20Applications)
