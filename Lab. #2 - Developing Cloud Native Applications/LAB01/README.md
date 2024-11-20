@@ -1,16 +1,15 @@
-# LAB02 - BACK-END
+# LAB01 - BACK-END
 
 Laboratório para mostrar na prática o funcionamento das ferramentas de developer no OCI.
-
-## Objetivo
-
 Criar uma aplicação no Kubernetes com as imagens de container armazenadas no Oracle Container Registry (OCIR). 
 O backend da aplicação será exposto através do API Gateway, onde receberá os headers de CORS necessários para se comunicar com o frontend.
 
+## Objetivo
+Configurar o Docker Login, gerar imagem do back-end e enviar para o registry do OCI. 
+Acessar o cluster Kubernetes e fazer o deploy do Back-end 
 Além disso a aplicação já contará com as bibliotecas e configurações necessárias para ser monitorada pelo APM.
 
-- [Lab 2 - Developing BACK-END](#lab-2---developing-cloud-native-applications---parte-1)
-  - [Objectivo](#objectivo)
+- [Lab 2 - Developing BACK-END]
   - [Docker Login](#docker-login)
   - [Configurar o Kubectl](#configurar-o-kubectl)
   - [Copiar o Código](#copiar-o-código)
@@ -21,6 +20,7 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
     - [Criando Secret no Kubernetes](#criando-secret-no-kubernetes)
     - [Configurar o Manifesto de Kubernetes](#configurar-o-manifesto-de-kubernetes)
     - [Deploy no Kubernetes](#deploy-no-kubernetes)
+
   - [Configuração API Gateway](#configuração-api-gateway)
     - [Deployment](#deployment)
   
