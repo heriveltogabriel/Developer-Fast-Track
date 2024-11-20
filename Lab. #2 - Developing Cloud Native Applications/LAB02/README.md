@@ -165,5 +165,5 @@ Basta copiar o IP externo no navegador e testar se aplicação retorna as inform
 ![teste](images/teste.png)
 
 ### 
-[Continua... -->](../../Lab.%20%233%20-%20Automating%20Deployment) 
+[Lab. #03... -->](../../Lab.%20%233%20-%20Automating%20Deployment) 
 
