@@ -24,54 +24,7 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
   - [Configuração API Gateway](#configuração-api-gateway)
     - [Deployment](#deployment)
   
-
-## Coleta de Informações
-
-Vamos coletar algumas informações na tenancy do OCI que serão utilizadas ao logo do laboratório, recomendamos que as anote em um bloco de nota para ter sempre em mãos de modo fácil. Serão coletadas as seguintes informações:
-
-```bash
-Tenancy Namespace:
-User Name:
-Auth Token:
-APM Endpoint:
-Public Key:
-Código da Região:
-```
-
-### Tenancy Namespace
-
-Clique no menu do lado direto no icone do usuário, clique no nome da sua tenency.
-
-![namespace](images/namespace1.png)
-
-Agora copie o namespace para o bloco de notas.
-
-![namespace](images/namespace2.png)
-
-### User OCID & Auth Token
-
-Clique no menu do lado direto no icone do usuário, clique no nome do seu usuário.
-
-![user](images/user1.png)
-
-Copie o OCID do usuário e salve no bloco de notas.
-
-Depois, vá em Auth Tokens e gere um novo token, salve o token no bloco de notas.
-
-![user](images/user2.png)
-
-### Dados do APM
-
-Navegue no menu principal em Observability & Management > Application Monitoring> Administration
-
-Clique no domínio criado pelo Resource Manager no laboratório anterior, e copie os dados do Endpoint e da Public Key.
-
-![apm](images/apm.png)
-
-### Código da Região
-
-Você pode pesquiar o código da sua região [aqui](https://docs.oracle.com/en-us/iaas/Content/Registry/Concepts/registryprerequisites.htm#regional-availability)
-
+  
 ## Docker Login
 
 Vamos precisar do Docker para fazer o build dos containers da aplicação e fazer o push para o OCIR. Antes do push, precisamos nos logar no OCIR através do dorcker-CLI.
