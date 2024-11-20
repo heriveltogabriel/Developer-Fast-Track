@@ -163,3 +163,7 @@ cepapp-front   LoadBalancer   10.96.188.10   152.70.213.248   80:31117/TCP   89s
 Basta copiar o IP externo no navegador e testar se aplicação retorna as informações.
 
 ![teste](images/teste.png)
+
+### 
+[Continua... -->](../../Lab.%20%233%20-%20Automating%20Deployment) 
+
