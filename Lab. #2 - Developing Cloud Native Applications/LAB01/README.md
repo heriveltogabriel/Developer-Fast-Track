@@ -39,7 +39,7 @@ docker pull heriveltogabriel/backend
 Vamos remomear a imagem para o padão do OCI 
 
 ```bash
-docker image tag heriveltogabriel/backend:latest  <>/<>/backend:latest
+docker image tag heriveltogabriel/backend:latest  <Codigo Region>.ocir.io/<tenancy-namespace>/backend:latest
 ```
 
 
@@ -72,6 +72,8 @@ docker push <Codigo Region>.ocir.io/<tenancy-namespace>/backend
 ```
 
 
+
+##
 ## Configurar o Kubectl
 
 Agora vamos configurar o acesso ao Kubernetes via Kubectl no Cloud Shell, no menu principal vá em **Developer Services > Containers & Artifacts > Kubernetes Clusters (OKE)**.
@@ -179,6 +181,8 @@ Podemos usar o seguinte código para saber se os pods já estão no ar:
 kubectl get pods
 ```
 
+
+##
 ## Configuração API Gateway
 
 Primeiro precisamos descobrir o IP do **Load Balancer** do serviço do backend.
