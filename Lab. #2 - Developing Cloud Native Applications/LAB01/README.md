@@ -10,13 +10,12 @@ Acessar o cluster Kubernetes e fazer o deploy do Back-end
 Além disso a aplicação já contará com as bibliotecas e configurações necessárias para ser monitorada pelo APM.
 
 - [Lab 2 - Developing BACK-END]
+  - [Docker Imagem](#docker-imagem)
+  - [Docker TAG](#docker-tag)
   - [Docker Login](#docker-login)
+  - [Docker Push](#docker-push)
   - [Configurar o Kubectl](#configurar-o-kubectl)
-  - [Copiar o Código](#copiar-o-código)
-  
-  - [Configurar e fazer o Deploy do Backend](#configurar-e-fazer-o-deploy-do-backend)
-    - [Docker Build](#docker-build)
-    - [Docker Push](#docker-push)
+    - [Copiar o Código](#copiar-o-código)
     - [Criando Secret no Kubernetes](#criando-secret-no-kubernetes)
     - [Configurar o Manifesto de Kubernetes](#configurar-o-manifesto-de-kubernetes)
     - [Deploy no Kubernetes](#deploy-no-kubernetes)
@@ -24,12 +23,31 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
   - [Configuração API Gateway](#configuração-api-gateway)
     - [Deployment](#deployment)
   
-  
+
+
+## Docker imagem 
+Vamos baixar a imagem do Docker HUB, fazer o Tag e subir para o Container Registry do OCI. 
+
+Abra o **Cloud Shell** e execute o comando abaixo parar baixar a imagem localmente no Cloud Shell.
+
+```bash
+docker pull heriveltogabriel/backend
+```
+
+
+## Docker TAG
+Vamos remomear a imagem para o padão do OCI 
+
+```bash
+docker image tag heriveltogabriel/backend:latest  <>/<>/backend:latest
+```
+
+
 ## Docker Login
 
 Vamos precisar do Docker para fazer o build dos containers da aplicação e fazer o push para o OCIR. Antes do push, precisamos nos logar no OCIR através do dorcker-CLI.
 
-Abra o **Cloud Shell** e execute o comando abaixo substituindo o username, tenanacy ocid e código da região. E na senha utilize o Auth Token gerado anteriormente.
+No **Cloud Shell** e execute o comando abaixo substituindo o username, tenanacy ocid e código da região. E na senha utilize o Auth Token gerado anteriormente.
 
 ```bash
 docker login <Codigo Region>.ocir.io -u <tenancy-namespace>/<username>
@@ -43,6 +61,16 @@ WARNING! Your password will be stored unencrypted in /home/trial01oci/.docker/co
 Configure a credential helper to remove this warning. See
 https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 ```
+
+
+### Docker Push
+
+Depois da Build vamos fazer o push para o OCIR
+
+```bash
+docker push <Codigo Region>.ocir.io/<tenancy-namespace>/backend
+```
+
 
 ## Configurar o Kubectl
 
@@ -76,40 +104,6 @@ NAME           STATUS   ROLES   AGE     VERSION
 10.20.10.125   Ready    node    3h23m   v1.21.5
 10.20.10.138   Ready    node    3h23m   v1.21.5
 10.20.10.208   Ready    node    3h23m   v1.21.5
-```
-
-## Copiar o Código
-
-Abra o Cloud Shell e execute o git clone do código da aplicação:
-
-```bash
-git clone https://github.com/heriveltogabriel/labcodeappdev.git 
-```
-
-## Configurar e fazer o Deploy do Backend
-
-Navegue até a pasta do backend:
-
-```bash
-cd labcodeappdev/Backend/code
-```
-
-Vamos realizar o build da imagem do backend e depois fazer o push para o OCIR.
-
-### Docker Build
-
-Execute o comando:
-
-```bash
-docker build -t <Codigo Region>.ocir.io/<tenancy-namespace>/backend .
-```
-
-### Docker Push
-
-Depois da Build vamos fazer o push para o OCIR
-
-```bash
-docker push <Codigo Region>.ocir.io/<tenancy-namespace>/backend
 ```
 
 ### Criando Secret no Kubernetes
