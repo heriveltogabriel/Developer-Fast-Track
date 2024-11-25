@@ -1,4 +1,4 @@
-﻿# OCI Developer Fast Track - Resource Provisioning - Lab. #1
+﻿# OCI Developer Fast Track 
 Infra como Código - Neste Lab você vai aprender a criar uma Infraestrutura completa no OCI,
 uma stack TerraForm com o serviço gerenciado de Resource Manage. 
 
@@ -19,8 +19,13 @@ Streaming
 Object Storage
 Functions
 
-Acesse a sequência de labs! ⬇
 
-- [Lab. #1 - infrastructure]
-  - [Lab01 - Resource Provisioning ](./LAB01/README.md)
-  - [Lab02 - Collect Tenancy information](./LAB02/README.md)
+### Acesse a sequência de labs! ⬇
+
+- [Lab. #1 - Resource Provisioning]
+  - [Lab01 - Provisioning ](./LAB01/README.md)
+  - [Lab02 - Collect information](./LAB02/README.md)
+
+- [Lab. #2 -  Developing Cloud Native Applications]
+  - [Lab01 - Deploy Backend](./LAB01/README.md)
+  - [Lab02 - Deploy Frontend](./LAB02/README.md)
