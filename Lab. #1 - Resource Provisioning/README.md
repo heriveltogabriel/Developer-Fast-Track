@@ -4,12 +4,12 @@ uma stack TerraForm com o serviço gerenciado de Resource Manage.
 
 ### Os recursos provisionados serão:
 
-VCN \**
-Subnets \*
-Dynamic Groups \*
-Policies \*
-Compartments \*
-OKE - Kubernetes \*
+VCN <br/>
+Subnets <br/>
+Dynamic Groups <br/>
+Policies <br/>
+Compartments <br/>
+OKE - Kubernetes\**
 Artifact Registry \*
 Container Registry \*
 OCI DevOps \*
