@@ -3,8 +3,7 @@
 Laboratório para coletar as informações do Tenanancy, Usuário, Token e etc. 
 
 
-- [Lab 2 - Developing Cloud Native Applications - Parte 1](#lab-2---developing-cloud-native-applications---parte-1)
-  - [Objectivo](#objectivo)
+- [Lab 2 - Developing Cloud Native Applications](#lab-2---developing-cloud-native-applications---parte-1)
   - [Coleta de Informações](#coleta-de-informações)
     - [Tenancy Namespace](#tenancy-namespace)
     - [User OCID & Auth Token](#user-ocid--auth-token)
@@ -59,5 +58,9 @@ Clique no domínio criado pelo Resource Manager no laboratório anterior, e copi
 Você pode pesquiar o código da sua região [aqui](https://docs.oracle.com/en-us/iaas/Content/Registry/Concepts/registryprerequisites.htm#regional-availability)
 
 
+
+### Dados Coletados vamos para o Lab. #2 
+
+
 ### 
-[Lab. #02 -->](../../Lab.%20%232%20-%20Developing%20Cloud%20Native%20Applications) 
+[Lab. #02... -->](../../Lab.%20%232%20-%20Developing%20Cloud%20Native%20Applications) 
