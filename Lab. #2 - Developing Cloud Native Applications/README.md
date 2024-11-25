@@ -8,7 +8,8 @@ Acesse a sequência de labs! ⬇
   - [Lab02 - Front-End](./LAB02/README.md)
 
 
+## Acesse a sequência de labs! ⬇
 
-### Aproveite e confira as certificações para Developers na OCI! 💻🚀
-- 🏅 [OCI Developer Professional 2025](https://mylearn.oracle.com/ou/learning-path/become-an-oci-developer-professional-2023/121998)
-- 🏅 [OCI DevOps Professional 2025](https://mylearn.oracle.com/ou/learning-path/become-an-oci-devops-professional-2023/121756)
+- [Lab. #1 - Resource Provisioning]
+  - [Lab01 - Provisioning ](./LAB01/README.md)
+  - [Lab02 - Collect information](./LAB02/README.md)
