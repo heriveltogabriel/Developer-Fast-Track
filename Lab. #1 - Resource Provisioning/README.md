@@ -4,7 +4,7 @@ uma stack TerraForm com o serviço gerenciado de Resource Manage.
 
 ### Os recursos provisionados serão:
 
-VCN \*
+VCN \**
 Subnets \*
 Dynamic Groups \*
 Policies \*
