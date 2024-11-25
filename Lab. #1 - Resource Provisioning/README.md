@@ -1,5 +1,5 @@
 ﻿# OCI Developer Fast Track 
-Infra como Código - Neste Lab você vai aprender a criar uma Infraestrutura completa no OCI,
+<b>Infra como Código </b> - Neste Lab você vai aprender a criar uma Infraestrutura completa no OCI,
 uma stack TerraForm com o serviço gerenciado de Resource Manage. 
 
 ### Os recursos provisionados serão:
@@ -9,15 +9,15 @@ Subnets <br/>
 Dynamic Groups <br/>
 Policies <br/>
 Compartments <br/>
-OKE - Kubernetes\**
-Artifact Registry \*
-Container Registry \*
-OCI DevOps \*
-APM \*
-API Gateway \*
-Streaming \*
-Object Storage \*
-Functions \*
+OKE - Kubernetes <br/>
+Artifact Registry <br/>
+Container Registry <br/>
+OCI DevOps <br/>
+APM <br/>
+API Gateway <br/>
+Streaming <br/>
+Object Storage <br/>
+Functions <br/>
 
 
 ### Acesse a sequência de labs! ⬇
