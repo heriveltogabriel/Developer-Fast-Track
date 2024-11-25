@@ -4,20 +4,20 @@ uma stack TerraForm com o serviço gerenciado de Resource Manage.
 
 ### Os recursos provisionados serão:
 
-VCN
-Subnets
-Dynamic Groups
-Policies
-Compartments
-OKE - Kubernetes
-Artifact Registry
-Container Registry
-OCI DevOps
-APM
-API Gateway
-Streaming
-Object Storage
-Functions
+VCN \*
+Subnets \*
+Dynamic Groups \*
+Policies \*
+Compartments \*
+OKE - Kubernetes \*
+Artifact Registry \*
+Container Registry \*
+OCI DevOps \*
+APM \*
+API Gateway \*
+Streaming \*
+Object Storage \*
+Functions \*
 
 
 ### Acesse a sequência de labs! ⬇
@@ -25,7 +25,3 @@ Functions
 - [Lab. #1 - Resource Provisioning]
   - [Lab01 - Provisioning ](./LAB01/README.md)
   - [Lab02 - Collect information](./LAB02/README.md)
-
-- [Lab. #2 -  Developing Cloud Native Applications]
-  - [Lab01 - Deploy Backend](./LAB01/README.md)
-  - [Lab02 - Deploy Frontend](./LAB02/README.md)
