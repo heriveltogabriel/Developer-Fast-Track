@@ -1,4 +1,4 @@
-﻿# OCI Developer Fast Track 
+﻿# OCI Developer Fast Track - Resource Provisioning - Lab. #1
 Infra como Código - Neste Lab você vai aprender a criar uma Infraestrutura completa no OCI,
 uma stack TerraForm com o serviço gerenciado de Resource Manage. 
 
