@@ -11,8 +11,8 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
 
 - [Lab 2 - Developing Backend]
   - [Abrir Cloud Shell](#abrir-cloud-shell)
-    - [Configurar Shell Arquitetura](#configurar-cloud-shell)
-  - [Configurar o Docker](#docker-config)
+    - [Configurar Cloud Shell](#configurar-cloud-shell)
+  - [Docker](#docker)
     - [Docker Imagem](#docker-imagem)
     - [Docker TAG](#docker-tag)
     - [Docker Login](#docker-login)
@@ -41,7 +41,7 @@ Abra no **Cloud Shell** o menu <b>Actions->Architecture</b> e confirme se a arqu
 ![shell](images/cs3.png)
 
 
-## Docker Config
+## Docker
 
 ## Docker imagem 
 Vamos baixar a imagem do Docker HUB, fazer o Tag e subir para o Container Registry do OCI. 
