@@ -10,7 +10,7 @@ Acessar o cluster Kubernetes e fazer o deploy do Front-End.
 Testar a Aplicação.
 
 - [Lab 2 - Developing Frontend]
-  - [Criando Container Registry](#criar-container-registry-frontend)
+  - [Criar Container Registry Frontend](#criar-container-registry-frontend)
   - [Configurar e fazer Deploy do Frontend](#configurar-e-fazer-deploy-do-frontend)
     - [Configurando o Frontend](#configurando-o-frontend)
     - [Docker Build Front](#docker-build-front)
