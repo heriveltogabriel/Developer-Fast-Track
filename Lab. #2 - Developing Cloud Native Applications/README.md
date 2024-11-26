@@ -1,24 +1,19 @@
-# APM Monitoring 
-<b> Observabilidade </b> - Nesse lab veremos a monitoração adicionada ao Frontend via javascript, verificando os dashboards e dados coletados pela ferramenta. 
+# Developing Cloud Native Applications
+<b> Devops </b> - Neste Lab você vai aprender a usar recursos de Container Registry, Kubernetes, API Gateway, PowerShell e fazer deploy de duas aplicações, Backend e Frontend no OCI. 
+
+## Você vai usar  :
+Baixar códigos do Git </br>
+Gerar imagem usando Docker </br>
+Usar OCI PowerShel </br> 
+Subir imagem para repositório do OCI </br>
+Fazer deploy das aplicações Fontend/backend </br>
+Configurar API Gateway </br>
+Criar Loadbalancer como serviço </br>
+Testar Aplicação </br>
 
 
-## Navegue nos menus <b>"Observability & Management -> Application Performance Monitoring -> Home"</b>
-
-Navegue nos Dashboards, itens, menus e vejam as informações geradas pelo o uso da aplicação. 
-
-![mon](images/mon1.png)
-
-![mon](images/mon2.png)
-
-![mon](images/mon3.png)
-
-![mon](images/mon4.png)
-
-![mon](images/mon5.png)
-
-![mon](images/mon6.png)
-
-![mon](images/mon7.png)
-
-
-
+## Acesse a sequência de labs! ⬇
+- [Lab. #2 - Developing Cloud Native Applications]
+  - [Lab01 - Deploying Backend](./LAB01/README.md)
+  - [Lab02 - Deploying Frontend](./LAB02/README.md)
+  - [Lab03 - APM Monitor](./LAB03/README.md)
