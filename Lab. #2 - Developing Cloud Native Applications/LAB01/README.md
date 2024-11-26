@@ -11,7 +11,7 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
 
 - [Lab 2 - Developing Backend]
   - [Abrir Cloud Shell](#abrir-cloud-shell)
-    - [Cloud Shell Arquitetura](#cloud-shell-arquitetura)
+    - [Configurar Shell Arquitetura](#configurar-cloud-shell)
   - [Configurar o Docker](#docker-config)
     - [Docker Imagem](#docker-imagem)
     - [Docker TAG](#docker-tag)
@@ -33,7 +33,8 @@ Abra o **Cloud Shell** na barra superior do OCI, clique no icone e selecione a o
 
 ![shell](images/cs1.png)
 
-## Abrir Cloud Shell
+## Configurar Cloud Shell
+
 Abra no **Cloud Shell** o menu <b>Actions->Architecture</b> e confirme se a arquitetura está em <b>X86_64</b> Se não estiver, mude e confirme. 
 
 ![shell](images/cs2.png)
