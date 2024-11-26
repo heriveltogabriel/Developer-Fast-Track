@@ -19,7 +19,7 @@ Testar a Aplicação.
     - [Deploy do Front no Kubernetes](#deploy-do-front-no-kubernetes)
   - [Testando frontend](#testando-a-aplicação)
 
-
+##
 ## Criar Container Registry "frontend"
 Vá no menus <b> Developer Services -> Kubernetes Clusters (OKE) - Container Registry </b> e crie o reposítório <b>frontend</b>
 
@@ -156,6 +156,7 @@ service/cepapp-frontend created
 ```
 </br></br>
 
+##
 ## Testando frontend
 
 Agora com o deploy do frontend e do backend podemos testar a aplicação.
