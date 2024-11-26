@@ -1,4 +1,4 @@
-# LAB01 - BACK-END
+# LAB01 - Deploying Backend
 
 Laboratório para mostrar na prática o funcionamento das ferramentas de developer no OCI.
 Criar uma aplicação no Kubernetes com as imagens de container armazenadas no Oracle Container Registry (OCIR). 
@@ -9,11 +9,13 @@ Configurar o Docker Login, gerar imagem do back-end e enviar para o registry do 
 Acessar o cluster Kubernetes e fazer o deploy do Back-end 
 Além disso a aplicação já contará com as bibliotecas e configurações necessárias para ser monitorada pelo APM.
 
-- [Lab 2 - Developing BACK-END]
+- [Lab 2 - Developing Backend]
   - [Docker Imagem](#docker-imagem)
   - [Docker TAG](#docker-tag)
   - [Docker Login](#docker-login)
   - [Docker Push](#docker-push)
+  - [Abrir OCI Cloud Shel](#abrir-cs)
+    - [Configurar  ] 
   - [Configurar o Kubectl](#configurar-o-kubectl)
     - [Copiar o Código](#copiar-o-código)
     - [Criando Secret no Kubernetes](#criando-secret-no-kubernetes)
@@ -24,11 +26,14 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
     - [Deployment](#deployment)
   
 
+## Abrir Cloud Shell
+Abra o **Cloud Shell** e execute o comando abaixo parar baixar a imagem localmente no Cloud Shell.
+
+![oke](images/cs1.png)
+
 
 ## Docker imagem 
 Vamos baixar a imagem do Docker HUB, fazer o Tag e subir para o Container Registry do OCI. 
-
-Abra o **Cloud Shell** e execute o comando abaixo parar baixar a imagem localmente no Cloud Shell.
 
 ```bash
 docker pull heriveltogabriel/backend
