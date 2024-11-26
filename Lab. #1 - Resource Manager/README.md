@@ -1,4 +1,4 @@
-﻿# OCI Developer Fast Track 
+﻿# Resource Manager
 <b>Infra como Código </b> - Neste Lab você vai aprender a criar uma Infraestrutura completa no OCI,
 uma stack TerraForm com o serviço gerenciado de Resource Manage. 
 

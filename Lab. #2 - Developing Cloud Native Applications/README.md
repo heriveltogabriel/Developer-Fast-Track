@@ -1,14 +1,15 @@
 # Developing Cloud Native Applications
-<b> Devops </b> - Neste Lab você vai aprender a usar recursos de Container Registry, Kubernetes, API Gateway e fazer deploy de duas aplicações, Backend e Frontend no OCI. 
+<b> Devops </b> - Neste Lab você vai aprender a usar recursos de Container Registry, Kubernetes, API Gateway, PowerShell e fazer deploy de duas aplicações, Backend e Frontend no OCI. 
 
 ## Você vai usar  :
-Baixar códigos do Git
-Gerar imagem usando Docker
-Subir imagem para repositório do OCI
-Fazer deploy das aplicações Fontend/backend
-Configurar API Gateway
-Criar Loabalancer como serviço
-Testar Aplicação
+Baixar códigos do Git </br>
+Gerar imagem usando Docker </br>
+Usar OCI PowerShel </br> 
+Subir imagem para repositório do OCI </br>
+Fazer deploy das aplicações Fontend/backend </br>
+Configurar API Gateway </br>
+Criar Loadbalancer como serviço </br>
+Testar Aplicação </br>
 
 
 ## Acesse a sequência de labs! ⬇
