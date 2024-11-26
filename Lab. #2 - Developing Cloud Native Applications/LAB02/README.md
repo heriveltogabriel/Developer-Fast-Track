@@ -9,14 +9,14 @@ Configurar e gerar imagem do frontend e enviar para o registry do OCI.
 Acessar o cluster Kubernetes e fazer o deploy do Front-End.
 Testar a Aplicação.
 
-- [Lab 2 - Developing FRONT-END](#lab-2---developing-cloud-native-applications---parte-1)
+- [Lab 2 - Developing Frontend]
   - [Configurar e fazer Deploy do Frontend](#configurar-e-fazer-deploy-do-frontend)
     - [Configurando o Frontend](#configurando-o-frontend)
     - [Docker Build Front](#docker-build-front)
     - [Docker Push Front](#docker-push-front)
     - [Configurar o Manifesto do Kubernetes](#configurar-o-manifesto-do-kubernetes)
     - [Deploy do Front no Kubernetes](#deploy-do-front-no-kubernetes)
-  - [Testar backend](#testando-a-aplicação)
+  - [Testar frontend](#testando-a-aplicação)
 
 
 
