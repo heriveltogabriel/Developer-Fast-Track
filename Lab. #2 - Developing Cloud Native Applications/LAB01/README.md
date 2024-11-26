@@ -11,7 +11,7 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
 
 - [Lab 2 - Developing Backend]
   - [Abrir OCI Cloud Shel](#abrir-cs)
-  - [Docker](#docker)
+  - [Configurar o Docker](#docker-config)
     - [Docker Imagem](#docker-imagem)
     - [Docker TAG](#docker-tag)
     - [Docker Login](#docker-login)
@@ -32,7 +32,7 @@ Abra o **Cloud Shell** e execute o comando abaixo parar baixar a imagem localmen
 
 ![oke](images/cs1.png)
 
-## Docker
+## Docker Config
 
 ## Docker imagem 
 Vamos baixar a imagem do Docker HUB, fazer o Tag e subir para o Container Registry do OCI. 
