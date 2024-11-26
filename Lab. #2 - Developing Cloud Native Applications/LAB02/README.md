@@ -29,8 +29,9 @@ Selecione a opção <b>"Públic"</b> com o nome <b>frontend</b> e clique em <b>"
 
 ![cr](images/cr2.png)
 
-</br></br>
+</br>
 
+##
 ## Configurar e fazer Deploy do Frontend
 
 Para o Frontend precisamos substituir o URL do backend e as informações do APM antes de fazer a build do Docker. 
@@ -154,7 +155,7 @@ Resultado:
 deployment.apps/cepapp-frontend created
 service/cepapp-frontend created
 ```
-</br></br>
+</br>
 
 ##
 ## Testando frontend
