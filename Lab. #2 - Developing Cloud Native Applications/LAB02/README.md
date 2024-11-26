@@ -1,11 +1,11 @@
-# LAB02 - FRONT-END
+# LAB02 - Deploying Frontend
 
 Laboratório para mostrar na prática o funcionamento das ferramentas de developer no OCI.
 Criar uma aplicação no Kubernetes com as imagens de container armazenadas no Oracle Container Registry (OCIR). 
-O backend da aplicação será exposto através do API Gateway, onde receberá os headers de CORS necessários para se comunicar com o frontend.
+O frontend da aplicação será exposto através do Load balancer Público onde a aplicação pode ser testada. 
 
 ## Objetivo
-Configurar e gerar imagem do front-end e enviar para o registry do OCI. 
+Configurar e gerar imagem do frontend e enviar para o registry do OCI. 
 Acessar o cluster Kubernetes e fazer o deploy do Front-End.
 Testar a Aplicação.
 
