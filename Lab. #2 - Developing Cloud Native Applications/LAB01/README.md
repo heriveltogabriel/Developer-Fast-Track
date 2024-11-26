@@ -17,12 +17,12 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
     - [Docker TAG](#docker-tag)
     - [Docker Login](#docker-login)
     - [Docker Push](#docker-push)
-  
-  - [Configurar o Kubectl](#configurar-o-kubectl)
+  - [Kubernetes](#kubernetes)
+    - [Configurar o Kubectl](#configurar-o-kubectl)
     - [Copiar o Código](#copiar-o-código)
     - [Criando Secret no Kubernetes](#criando-secret-no-kubernetes)
     - [Configurar o Manifesto de Kubernetes](#configurar-o-manifesto-de-kubernetes)
-    - [Deploy no Kubernetes](#deploy-no-kubernetes)
+    - [Deploy backend no Kubernetes](#deploy-no-kubernetes)
 
   - [Configuração API Gateway](#configuração-api-gateway)
     - [Deployment](#deployment)
@@ -40,9 +40,9 @@ Abra no **Cloud Shell** o menu <b>Actions->Architecture</b> e confirme se a arqu
 ![shell](images/cs2.png)
 ![shell](images/cs3.png)
 
-</br></br></br>
-
+</br></br>
 ## Docker
+</br>
 
 ## Docker imagem 
 Vamos baixar a imagem do Docker HUB, fazer o Tag e subir para o Container Registry do OCI. 
@@ -76,8 +76,6 @@ WARNING! Your password will be stored unencrypted in /home/trial01oci/.docker/co
 Configure a credential helper to remove this warning. See
 https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 ```
-
-
 ### Docker Push
 
 Depois da Build vamos fazer o push para o OCIR
@@ -85,10 +83,10 @@ Depois da Build vamos fazer o push para o OCIR
 ```bash
 docker push <Codigo Region>.ocir.io/<tenancy-namespace>/backend
 ```
+</br></br>
+## Kubernetes
+</br>
 
-
-
-##
 ## Configurar o Kubectl
 
 Agora vamos configurar o acesso ao Kubernetes via Kubectl no Cloud Shell, no menu principal vá em **Developer Services > Containers & Artifacts > Kubernetes Clusters (OKE)**.
