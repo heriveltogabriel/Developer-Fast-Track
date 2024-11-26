@@ -10,12 +10,13 @@ Acessar o cluster Kubernetes e fazer o deploy do Back-end
 Além disso a aplicação já contará com as bibliotecas e configurações necessárias para ser monitorada pelo APM.
 
 - [Lab 2 - Developing Backend]
-  - [Docker Imagem](#docker-imagem)
-  - [Docker TAG](#docker-tag)
-  - [Docker Login](#docker-login)
-  - [Docker Push](#docker-push)
   - [Abrir OCI Cloud Shel](#abrir-cs)
-    - [Configurar  ] 
+  - [Docker](#docker)
+    - [Docker Imagem](#docker-imagem)
+    - [Docker TAG](#docker-tag)
+    - [Docker Login](#docker-login)
+    - [Docker Push](#docker-push)
+  
   - [Configurar o Kubectl](#configurar-o-kubectl)
     - [Copiar o Código](#copiar-o-código)
     - [Criando Secret no Kubernetes](#criando-secret-no-kubernetes)
@@ -31,6 +32,7 @@ Abra o **Cloud Shell** e execute o comando abaixo parar baixar a imagem localmen
 
 ![oke](images/cs1.png)
 
+## Docker
 
 ## Docker imagem 
 Vamos baixar a imagem do Docker HUB, fazer o Tag e subir para o Container Registry do OCI. 
@@ -39,14 +41,12 @@ Vamos baixar a imagem do Docker HUB, fazer o Tag e subir para o Container Regist
 docker pull heriveltogabriel/backend
 ```
 
-
 ## Docker TAG
 Vamos remomear a imagem para o padão do OCI 
 
 ```bash
 docker image tag heriveltogabriel/backend:latest  <Codigo Region>.ocir.io/<tenancy-namespace>/backend:latest
 ```
-
 
 ## Docker Login
 
