@@ -22,6 +22,6 @@ Functions <br/>
 
 ### Acesse a sequência de labs! ⬇
 
-- [Lab. #1 - Resource Provisioning]
+- [Lab. #1 - Resource Manager]
   - [Lab01 - Provisioning ](./LAB01/README.md)
   - [Lab02 - Collect information](./LAB02/README.md)

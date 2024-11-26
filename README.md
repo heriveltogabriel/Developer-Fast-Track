@@ -3,6 +3,12 @@ Este é o repo onde armazenamos todo o material para os labs do Dev Fast Track!
 
 Acesse a sequência de labs! ⬇
 
+
+[Lab. #1 - Resource Provisioning]
+Lab01 - Provisioning
+Lab02 - Collect information
+
+
 - [Lab. #1 - Infrastructures](/Lab.%20%231%20-%20Resource%20Provisioning)
   - [Lab01 - Resource Provisioning ](/Lab.%20%231%20-%20Resource%20Provisioning)
   - [Lab02 - Collect Tenancy information](Lab.%20%232%20-%20Developing%20Cloud%20Native%20Applications%20-%20Parte%201)
