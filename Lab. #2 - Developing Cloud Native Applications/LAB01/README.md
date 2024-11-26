@@ -27,6 +27,7 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
   - [Configuração API Gateway](#configuração-api-gateway)
     - [Deployment](#deployment)
   
+</br></br>
 
 ## Abrir Cloud Shell
 Abra o **Cloud Shell** na barra superior do OCI, clique no icone e selecione a opção "Cloud Shell"
@@ -84,6 +85,7 @@ Depois da Build vamos fazer o push para o OCIR
 docker push <Codigo Region>.ocir.io/<tenancy-namespace>/backend
 ```
 </br></br>
+
 ## Kubernetes
 </br>
 
@@ -194,8 +196,8 @@ Podemos usar o seguinte código para saber se os pods já estão no ar:
 kubectl get pods
 ```
 
+</br></br>
 
-##
 ## Configuração API Gateway
 
 Primeiro precisamos descobrir o IP do **Load Balancer** do serviço do backend.
