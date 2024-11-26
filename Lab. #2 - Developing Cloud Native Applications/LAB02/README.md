@@ -16,7 +16,7 @@ Testar a Aplicação.
     - [Docker Push Front](#docker-push-front)
     - [Configurar o Manifesto do Kubernetes](#configurar-o-manifesto-do-kubernetes)
     - [Deploy do Front no Kubernetes](#deploy-do-front-no-kubernetes)
-  - [Testando a Aplicação](#testando-a-aplicação)
+  - [Testar backend](#testando-a-aplicação)
 
 
 
@@ -143,7 +143,7 @@ deployment.apps/cepapp-front created
 service/cepapp-front created
 ```
 
-## Testando a Aplicação
+## Testando backend
 
 Agora com o deploy do frontend e do backend podemos testar a aplicação.
 

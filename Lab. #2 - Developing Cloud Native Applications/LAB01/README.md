@@ -11,6 +11,7 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
 
 - [Lab 2 - Developing Backend]
   - [Abrir Cloud Shell](#abrir-cloud-shell)
+    - [Cloud Shell Arquitetura](#cloud-shell-arquitetura)
   - [Configurar o Docker](#docker-config)
     - [Docker Imagem](#docker-imagem)
     - [Docker TAG](#docker-tag)
@@ -28,9 +29,16 @@ Além disso a aplicação já contará com as bibliotecas e configurações nece
   
 
 ## Abrir Cloud Shell
-Abra o **Cloud Shell** e execute o comando abaixo parar baixar a imagem localmente no Cloud Shell.
+Abra o **Cloud Shell** na barra superior do OCI, clique no icone e selecione a opção "Cloud Shell"
 
-![oke](images/cs1.png)
+![shell](images/cs1.png)
+
+## Abrir Cloud Shell
+Abra no **Cloud Shell** o menu <b>Actions->Architecture</b> e confirme se a arquitetura está em <b>X86_64</b> Se não estiver, mude e confirme. 
+
+![shell](images/cs2.png)
+![shell](images/cs3.png)
+
 
 ## Docker Config
 
