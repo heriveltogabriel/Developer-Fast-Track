@@ -33,7 +33,8 @@ Selecione a opção <b>"Públic"</b> com o nome <b>frontend</b> e clique em <b>"
 
 ## Configurar e fazer Deploy do Frontend
 
-Para o Frontend precisamos substituir o URL do backend e as informações do APM antes de fazer a build do Docker.
+Para o Frontend precisamos substituir o URL do backend e as informações do APM antes de fazer a build do Docker. 
+Volte ao <b>Cloud Shell</b> 
 
 ### Configurando o Frontend
 
