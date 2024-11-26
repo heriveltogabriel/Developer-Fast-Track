@@ -20,13 +20,12 @@ Testar a Aplicação.
   - [Testando frontend](#testando-a-aplicação)
 
 
-## Criar Container Registry frontend
+## Criar Container Registry "frontend"
 Vá no menus <b> Developer Services -> Kubernetes Clusters (OKE) - Container Registry </b> e crie o reposítório <b>frontend</b>
 
 ![cr](images/cr1.png)
 
-</br>
-Crie o repositório com o nome <b>frontend</b> e clique em "Create"
+Selecione a opção <b>"Públic"</b> com o nome <b>frontend</b> e clique em <b>"Create"</b>
 
 ![cr](images/cr2.png)
 
