@@ -10,14 +10,21 @@ Acessar o cluster Kubernetes e fazer o deploy do Front-End.
 Testar a Aplicação.
 
 - [Lab 2 - Developing Frontend]
+  - [Criando Container Registry](#criar-container-registry-frontend)
   - [Configurar e fazer Deploy do Frontend](#configurar-e-fazer-deploy-do-frontend)
     - [Configurando o Frontend](#configurando-o-frontend)
     - [Docker Build Front](#docker-build-front)
     - [Docker Push Front](#docker-push-front)
     - [Configurar o Manifesto do Kubernetes](#configurar-o-manifesto-do-kubernetes)
     - [Deploy do Front no Kubernetes](#deploy-do-front-no-kubernetes)
-  - [Testar frontend](#testando-a-aplicação)
+  - [Testando frontend](#testando-a-aplicação)
 
+
+## Criar Container Registry frontend
+Vá no menus <b> Developer Services -> Kubernetes Clusters (OKE) - Container Registry </b> e crie o reposítório <b>frontend</b>
+
+![cr](images/cr1.png)
+![cr](images/cr2.png)
 
 
 ## Configurar e fazer Deploy do Frontend
@@ -84,7 +91,7 @@ Salve o arquivo.
 Após, configurar o frontend, vamos realizar a build do docker com o seguinte comando.
 
 ```bash
-docker build -t <Codigo Region>.ocir.io/<tenancy-namespace>/front .
+docker build -t <Codigo Region>.ocir.io/<tenancy-namespace>/frontend .
 ```
 
 ### Docker Push Front
@@ -92,7 +99,7 @@ docker build -t <Codigo Region>.ocir.io/<tenancy-namespace>/front .
 Ao final da build podemos fazer o push para o OCIR
 
 ```bash
-docker push <Codigo Region>.ocir.io/<tenancy-namespace>/front
+docker push <Codigo Region>.ocir.io/<tenancy-namespace>/frontend
 ```
 
 ### Configurar o Manifesto do Kubernetes
@@ -112,7 +119,7 @@ vi Deployfrontend.yaml
  Pressione **i** para editar o arquivo, e substitua a **Image-Name**:
 
  ```note
-Image-Name = <Codigo Region>.ocir.io/<tenancy-namespace>/ftdeveloper/front
+Image-Name = <Codigo Region>.ocir.io/<tenancy-namespace>/frontend
 ```
 
  ```yaml
@@ -139,18 +146,19 @@ kubectl apply -f Deployfrontend.yaml
 Resultado:
 
 ```bash
-deployment.apps/cepapp-front created
-service/cepapp-front created
+deployment.apps/cepapp-frontend created
+service/cepapp-frontend created
 ```
+</br></br>
 
-## Testando backend
+## Testando frontend
 
 Agora com o deploy do frontend e do backend podemos testar a aplicação.
 
 Vamos obter o IP do Load Balancer do Frontend para acessar a aplicação:
 
 ```bash
-kubectl get svc cepapp-front
+kubectl get svc cepapp-frontend
 ```
 
 Obtendo um resultado parecido com esse:
@@ -164,6 +172,5 @@ Basta copiar o IP externo no navegador e testar se aplicação retorna as inform
 
 ![teste](images/teste.png)
 
-### 
-[Lab. #03... -->](../../Lab.%20%233%20-%20Automating%20Deployment) 
+##
 
