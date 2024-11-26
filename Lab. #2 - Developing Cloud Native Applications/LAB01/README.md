@@ -10,7 +10,7 @@ Acessar o cluster Kubernetes e fazer o deploy do Back-end
 Além disso a aplicação já contará com as bibliotecas e configurações necessárias para ser monitorada pelo APM.
 
 - [Lab 2 - Developing Backend]
-  - [Abrir Cloud Shel](#abrir-cloud-shel)
+  - [Abrir Cloud Shell](#abrir-cloud-shell)
   - [Configurar o Docker](#docker-config)
     - [Docker Imagem](#docker-imagem)
     - [Docker TAG](#docker-tag)
