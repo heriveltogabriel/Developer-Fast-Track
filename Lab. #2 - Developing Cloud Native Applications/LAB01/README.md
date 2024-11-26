@@ -40,6 +40,7 @@ Abra no **Cloud Shell** o menu <b>Actions->Architecture</b> e confirme se a arqu
 ![shell](images/cs2.png)
 ![shell](images/cs3.png)
 
+</br></br></br>
 
 ## Docker
 
