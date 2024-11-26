@@ -26,6 +26,7 @@ Vá no menus <b> Developer Services -> Kubernetes Clusters (OKE) - Container Reg
 ![cr](images/cr1.png)
 ![cr](images/cr2.png)
 
+</br></br>
 
 ## Configurar e fazer Deploy do Frontend
 
